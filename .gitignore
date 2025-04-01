@@ -1,0 +1,45 @@
+# Compiled binary files
+*.out
+*.exe
+*.o
+*.obj
+
+# Debug files
+*.dSYM/
+*.pdb
+*.ilk
+*.stackdump
+
+# Logs and caches
+*.log
+*.cache
+
+# VSCode-specific files
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/c_cpp_properties.json
+
+# Editor and OS files
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# CMake and Makefile generated files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Custom folders (ignore output directories)
+bin/
+build/
+dist/
+
+# Competitive programming test cases (optional)
+*.in
+*.out
